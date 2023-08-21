@@ -1,0 +1,58 @@
+/* .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid > div {
+  width: calc(80% - 20px); /* Adjust as needed */
+/* margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Give more space to Line chart */
+/* .line-chart-container {
+  width: 60%;
+}
+
+/* Media queries for responsiveness */
+/* @media screen and (max-width: 1024px) {
+  .grid > div {
+    width: 100%;
+  }
+
+  .grid > div:nth-child(3) {
+    margin-top: 20px;
+  }
+}
+ /* */
+
+.grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .grid > div {
+  width: calc(80% - 20px);
+  margin: 10px;
+  justify-content: center;
+  box-sizing: border-box;
+} */
+
+.firstHeading {
+  /* margin-left: 2rem;
+  margin-top: 2rem; */
+  margin: 2rem 0rem -1.5rem 2rem;
+}
+.frontPage{
+  width: 90%;
+  margin: auto;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: white;
+
+  
+  /* margin-top: 10%; */
+}
+

@@ -1,0 +1,54 @@
+.datagrid-container {
+  position: relative;
+  height: 55vh; /* Set your desired height */
+  overflow: auto;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader,
+.MuiDataGrid-root .MuiDataGrid-footerContainer {
+  position: sticky;
+  z-index: 100;
+  background-color: #f0f0f0; /* Customize the background color */
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  top: 0;
+}
+
+.MuiDataGrid-root .MuiDataGrid-footerContainer {
+  bottom: 0;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  position: sticky;
+  z-index: 100;
+  background-color: white;
+}
+
+.MuiDataGrid-root .MuiDataGrid-viewport {
+  overflow: hidden !important; /* Ensure that the viewport overflows */
+}
+
+.MuiDataGrid-root .MuiDataGrid-ColumnsHeadersInner {
+  width: auto !important; /* Set the width to auto */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track*/
+
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #21295c;
+}
