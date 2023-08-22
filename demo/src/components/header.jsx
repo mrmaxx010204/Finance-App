@@ -13,9 +13,9 @@ export default function Header() {
             src="/logoo.png"
             alt="img"
           />
-          {/* <div className="text-gray-900 font-serif text-2xl">
-            JEEVAN LAV
-          </div> */}
+          <div className="text-gray-900 font-serif text-2xl">
+            Finance App
+          </div>
         </Link>
       </div>
       <div>
